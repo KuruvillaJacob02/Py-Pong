@@ -6,5 +6,5 @@ The speed of the ball varies depending on your system. It can be adjusted by
 changing the **ball.dx** and **ball.dy** values in **lines 35 and 36** of the code respectively
 
 #### I would like to thank Chrisitian Thomspon since I was able to do this project by referring to tutorials on his Youtube channel "TokyoEdTech"
-You can check out his channel [here](#https://www.youtube.com/channel/UC2vm-0XX5RkWCXWwtBZGOXg)
+You can check out his channel [here](https://www.youtube.com/channel/UC2vm-0XX5RkWCXWwtBZGOXg)
 
