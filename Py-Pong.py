@@ -1,4 +1,5 @@
 import turtle
+from playsound import playsound
 window=turtle.Screen()
 window.title("Py-Pong by Kuru")
 window.bgcolor('pink')
@@ -32,7 +33,7 @@ ball.shapesize(1.5,1.5)
 ball.color("#e50b5a")
 ball.penup() 
 ball.goto(x=0,y=0)
-ball.dx=0.4            #Adjust the speed of the ball here
+ball.dx=0.5          #Adjust the speed of the ball here
 ball.dy=0.5
 
 #Scoreboard
@@ -43,6 +44,8 @@ board.color("white")
 board.penup()
 board.goto(0,305)
 board.write("Player A : {}  Player B : {} ".format(score_a,score_b), align="center", font=("Courrier",25,"bold") )
+
+#Paddle speeds can be adujusted here
 
 def pad1up():
         y=pad1.ycor()
@@ -70,6 +73,7 @@ window.onkeypress(pad1up,'w')
 window.onkeypress(pad1down,'s')
 window.onkeypress(pad2up,'Up')
 window.onkeypress(pad2down,'Down')
+playsound("Py-Pong_music.mp3",0)
 while True:
         window.update()
         ball.setx(ball.xcor()+ball.dx)
