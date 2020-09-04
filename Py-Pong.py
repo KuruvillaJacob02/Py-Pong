@@ -32,8 +32,8 @@ ball.shapesize(1.5,1.5)
 ball.color("#e50b5a")
 ball.penup() 
 ball.goto(x=0,y=0)
-ball.dx=0.3             #Adjust the speed of the ball here
-ball.dy=0.4 
+ball.dx=0.4            #Adjust the speed of the ball here
+ball.dy=0.5
 
 #Scoreboard
 
